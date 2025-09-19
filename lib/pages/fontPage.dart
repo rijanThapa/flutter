@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/datasource/get_data.dart';
 import 'package:flutter_application_1/pages/home_page.dart';
 
 void main() {
@@ -53,6 +54,15 @@ class _FontpageState extends State<Fontpage> {
         );
       }
     }
+  }
+  @override
+  void initState() {
+    super.initState();
+    fetchData();
+  }
+  Future<void> fetchData() async {
+ 
+ 
   }
 
   @override
